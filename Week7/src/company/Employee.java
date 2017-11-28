@@ -1,7 +1,7 @@
 package company;
 
 public class Employee {
-    private String name;
+    private String name;    
     private Sex sex;
     private Position position;
     private SkillLevel skillLevel;
