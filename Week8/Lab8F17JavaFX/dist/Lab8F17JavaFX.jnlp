@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Lab8F17JavaFX.jnlp">
+  <information>
+    <title>Lab8F17JavaFX</title>
+    <vendor>Georgi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Lab8F17JavaFX.jar" size="6392" download="eager" />
+    <jar href="lib\Week8B.jar" size="8550" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Lab8F17JavaFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="lab8f17javafx.Lab8F17JavaFX"  name="Lab8F17JavaFX" />
+  <update check="always"/>
+</jnlp>
